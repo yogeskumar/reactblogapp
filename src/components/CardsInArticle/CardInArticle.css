@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  max-width: 310px;
+  min-width: 280px;
+  width: 30%;
+  margin-top: 10px;
+}
+
+h2 {
+  margin-bottom: 3px;
+}
+
+hr {
+  width: 4vw;
+  min-width: 70px;
+  max-width: 90px;
+  height: 3px;
+  background-color: red;
+  border: none;
+  float: left;
+  margin-top: 0;
+  border-radius: 5px;
+}
+
+.card-image-article {
+  margin: auto;
+  height: 200px;
+  background: url("https://media.istockphoto.com/photos/nothing-better-than-sliding-into-bed-with-a-good-read-picture-id929998552?b=1&k=20&m=929998552&s=170667a&w=0&h=GkJP5lHXoyVLYDIa86G6stcyEvoaAgN7xBFqgrc3QH8=");
+  border: 5px;
+  background-size: cover;
+}
+
+.card-text-content {
+  margin: auto;
+  max-width: 270px;
+}
+
+@media screen and (max-width: 700px) {
+  .card-text-content {
+    margin: auto;
+    max-width: 300px;
+  }
+}
+.author-pic-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  margin: auto 0 0 10px;
+  font-size: 12px;
+}
