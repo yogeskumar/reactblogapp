@@ -7,7 +7,9 @@ import Home from "./components/Home/Home";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/
+reactblogapp
+">
         <Switch>
           <Route path="/article" exact component={Article}/>
           <Route path="/" exact component={Home}/>
