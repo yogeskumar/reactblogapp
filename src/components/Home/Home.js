@@ -17,13 +17,13 @@ function Home() {
                     </div>
                 </div>
                 <div class="img1">
-                        <img src={MainImage} alt="" /><div className="text-on-small-img">
+                        <img style={{"width":"100%", "backgroundSize":"cover"}} src={MainImage} alt="" /><div className="text-on-small-img">
                         <h3>The Sound cloud</h3>
                         <h3>You loved is doomed</h3>
                         <div><span>Travel</span><span> </span><span  style={{"color":"rgb(185, 183, 183)"}}>/</span><span> </span><span  style={{"color":"rgb(185, 183, 183)"}}>August 21 2017</span></div>
                     </div></div>
                 <div class="img2">
-                        <img src={MainImage} alt="" /><div className="text-on-small-img">
+                        <img style={{"width":"100%", "backgroundSize":"cover"}} src={MainImage} alt="" /><div className="text-on-small-img">
                         <h3>The Sound cloud</h3>
                         <h3>You loved is doomed</h3>
                         <div><span>Travel</span><span> </span><span  style={{"color":"rgb(185, 183, 183)"}}>/</span><span> </span><span  style={{"color":"rgb(185, 183, 183)"}}>August 21 2017</span></div>

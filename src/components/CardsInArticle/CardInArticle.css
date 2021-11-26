@@ -9,6 +9,7 @@
   min-width: 280px;
   width: 30%;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -48,9 +49,13 @@ hr {
 .author-pic-name {
   display: flex;
   flex-direction: row;
+  margin-top: 0px;
 }
 
 .name {
   margin: auto 0 0 10px;
   font-size: 12px;
+}
+img {
+  margin-bottom: 2px;
 }
