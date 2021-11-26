@@ -1,11 +1,13 @@
 import React from 'react';
 import "./CardsInHome.css";
+import MainImage from "./../../images/mainImage.jpg";
 
 function CardsInHome() {
     return (
         <div>
             <div className="card">
-                        <div className="card-image"></div>
+                        <div className="card-image">
+                        <img src={MainImage} alt="" /></div>
                         <div className="card-text-content">
                             <div className="card-heading">
                                  <h3 style={{"marginBottom":"2px"}}>Joshua Tree</h3>

@@ -1,12 +1,14 @@
 import React from 'react';
 import "./CardInArticle.css";
 import Pic from "./../../images/picture.png";
+import MainImage from "./../../images/mainImage.jpg";
 
 function CardInArticle() {
     return (
         <div>
             <div className="card">
-                        <div className="card-image-article"></div>
+                        <div className="card-image-article">
+                        <img src={MainImage} alt="" /></div>
                         <div className="card-text-content">
                             <div className="card-heading">
                                  <h3 style={{"marginBottom":"2px"}}>Joshua Tree</h3>

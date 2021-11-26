@@ -28,7 +28,6 @@ body {
   background-position: center center;
 }
 .big-image {
-  background: url("/reactblogapp/https://media.istockphoto.com/photos/nothing-better-than-sliding-into-bed-with-a-good-read-picture-id929998552?b=1&k=20&m=929998552&s=170667a&w=0&h=GkJP5lHXoyVLYDIa86G6stcyEvoaAgN7xBFqgrc3QH8=");
   grid-area: a;
   border-radius: 10px;
   position: relative;
@@ -68,13 +67,11 @@ body {
 }
 
 .img1 {
-  background: url("/reactblogapp/https://media.istockphoto.com/photos/nothing-better-than-sliding-into-bed-with-a-good-read-picture-id929998552?b=1&k=20&m=929998552&s=170667a&w=0&h=GkJP5lHXoyVLYDIa86G6stcyEvoaAgN7xBFqgrc3QH8=");
   grid-area: b;
   border-radius: 5px;
 }
 
 .img2 {
-  background: url("/reactblogapp/https://media.istockphoto.com/photos/nothing-better-than-sliding-into-bed-with-a-good-read-picture-id929998552?b=1&k=20&m=929998552&s=170667a&w=0&h=GkJP5lHXoyVLYDIa86G6stcyEvoaAgN7xBFqgrc3QH8=");
   grid-area: c;
   border-radius: 5px;
 }

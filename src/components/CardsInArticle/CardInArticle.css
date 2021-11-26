@@ -30,7 +30,6 @@ hr {
 .card-image-article {
   margin: auto;
   height: 200px;
-  background: url("/reactblogapp/https://media.istockphoto.com/photos/nothing-better-than-sliding-into-bed-with-a-good-read-picture-id929998552?b=1&k=20&m=929998552&s=170667a&w=0&h=GkJP5lHXoyVLYDIa86G6stcyEvoaAgN7xBFqgrc3QH8=");
   border: 5px;
   background-size: cover;
 }
