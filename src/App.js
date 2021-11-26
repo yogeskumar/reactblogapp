@@ -12,7 +12,7 @@ reactblogapp
 ">
         <Switch>
           <Route path="/article" exact component={Article}/>
-          <Route path="/" exact component={Home}/>
+          <Route path="/reactblogapp" exact component={Home}/>
         </Switch>
       </BrowserRouter>
     </div>
